@@ -8,22 +8,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login Page</title>
+	<title>Login Form with Side Image</title>
 	<link rel="stylesheet" type="text/css" href="webpage.css">
 </head>
-<body class="body">
-		<div class="left">
-			<form>
+<body>
+	<div class="container">
+            <img src="home.jpg" alt="Ecommerce Image" class="image" >
+		<div class="login-container">
+			<form action="#">
 				<h1>Login</h1>
-				<div class="image-container">
-					<!--<img src="home.jpg">-->
-				</div>
-				<input type="text" placeholder="Username">
-				<input type="password" placeholder="Password">
-				<input type="submit" value="Login">
-                                <input type="submit" value="Register">
+				<label for="username">Username</label>
+				<input type="text" placeholder="Enter Username" name="username" required>
+				<label for="password">Password</label>
+				<input type="password" placeholder="Enter Password" name="password" required>
+                                <button type="submit">Login</button>
+                                <button type="submit">Register</button>
 			</form>
 		</div>
+	</div>
 </body>
 </html>
 
