@@ -64,7 +64,9 @@ label {
 }
 
 input[type="text"],
-input[type="password"] {
+input[type="tel"],
+input[type="email"],
+input[type="password"]{
 	width: 100%;
 	padding: 10px;
 	margin-bottom: 20px;
@@ -73,22 +75,23 @@ input[type="password"] {
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
-button[type="submit"] {
+.submit {
 	width: 100%;
 	padding: 10px;
-	background-color: #4CAF50;
-	color: #fff;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	font-weight: 600;
-        font-size: 20px;
-	transition: all 0.3s ease-in-out;
-        margin-bottom: 30px;
+	background-color: #4CAF50 !important;
+	color: #fff !important;
+	border: none !important;
+	border-radius: 5px !important;
+	cursor: pointer !important;
+	font-weight: 600 !important;
+        font-size: 20px !important;
+	transition: all 0.3s ease-in-out !important;
+        margin-bottom: 30px !important;
 }
 
-button[type="submit"]:hover {
-	background-color: #3e8e41;
+.submit:hover {
+	background-color: #3e8e41 !important;
 }
+
 
 
