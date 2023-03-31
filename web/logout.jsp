@@ -39,7 +39,7 @@
             <img src="home.jpg" alt="Ecommerce Image" class="image" >
             <div class="login-container">
     <h1>You have been logged out</h1>
-    <a href="login.jpg">Back to Login</a>
+    <a href="index.jpg">Back to Login</a>
   </div>
      </div>       
 </body>
