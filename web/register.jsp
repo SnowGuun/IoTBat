@@ -23,6 +23,8 @@
                     <input type="text" placeholder="Enter Last Name" name="lastname" required>
                     <label for="email">Email</label>
 		    <input type="email" placeholder="Enter Email" name="email" required>
+                    <label for="password">Password</label>
+		    <input type="password" placeholder="Enter Password" name="password" required>                    
                     <label for="address">Address</label>
 		    <input type="text" placeholder="Enter Address" name="address" required>
                     <label for="phone">Phone Number</label>
