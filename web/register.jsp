@@ -37,6 +37,8 @@
                     <input type="text" placeholder="Enter Last Name" name="lastname" required>
                     <label for="email">Email</label>
 		    <input type="email" placeholder="Enter Email" name="email" required>
+                    <label for="text">Username</label>
+		    <input type="text" placeholder="Enter Username" name="email" required>
                     <label for="password">Password</label>
 		    <input type="password" placeholder="Enter Password" name="password" id="password" required> 
                     <input type="checkbox" onclick="showPassword()"> Show Password
