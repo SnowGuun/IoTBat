@@ -1,6 +1,6 @@
 <%-- 
-    Document   : login.jsp
-    Created on : 28 Mar, 2023, 9:58:14 PM
+    Document   : mainpage
+    Created on : 30 Mar, 2023, 10:40:17 PM
     Author     : Dev
 --%>
 
@@ -9,9 +9,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Main Page</title>
     </head>
     <body>
-        <h1>Hi</h1>
+        <h1>Hello World!</h1>
     </body>
 </html>

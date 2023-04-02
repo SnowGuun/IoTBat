@@ -12,11 +12,12 @@
 	<link rel="stylesheet" type="text/css" href="webpage.css">
     </head>
     <body>
+        <h1 class='title'>IoT Bay Store</h1>
         <div class="container">
             <img src="home.jpg" alt="Ecommerce Image" class="image" >
             <div class="login-container">
                 <form action="#">
-                    <h1>Register</h1>
+                    <h1 class="form_title">Register</h1>
                     <label for="firstname">First Name</label>
                     <input type="text" placeholder="Enter First Name" name="firstname" required>
                     <label for="lastname">Last Name</label>
@@ -30,10 +31,9 @@
                     <label for="phone">Phone Number</label>
 		    <input type="tel" placeholder="Enter Phone Number" name="phone" required>
 		    <button type="submit" class="submit">Register</button>
+                    <a href="index.jsp" style="text-decoration: none">Back to Login</a>   
                 </form>
-                <div style="margin-top: 20px">
-                   <a href="index.jsp" style="text-decoration: none">Back to Login</a>
-                </div>              
+                            
             </div>
         </div>
     </body>
