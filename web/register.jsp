@@ -5,11 +5,24 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
 	<title>Register Form </title>
 	<link rel="stylesheet" type="text/css" href="webpage.css">
+        <script>
+            function showPassword()
+            {
+               var x = document.getElementById("password");
+               if (x.type === "password") {
+                   x.type= "text";
+               }
+               else {
+                   x.type = "password";
+               }
+            }
+        </script>
     </head>
     <body>
         <h1 class='title'>IoT Bay Store</h1>
@@ -25,7 +38,8 @@
                     <label for="email">Email</label>
 		    <input type="email" placeholder="Enter Email" name="email" required>
                     <label for="password">Password</label>
-		    <input type="password" placeholder="Enter Password" name="password" required>                    
+		    <input type="password" placeholder="Enter Password" name="password" id="password" required> 
+                    <input type="checkbox" onclick="showPassword()"> Show Password
                     <label for="address">Address</label>
 		    <input type="text" placeholder="Enter Address" name="address" required>
                     <label for="phone">Phone Number</label>
