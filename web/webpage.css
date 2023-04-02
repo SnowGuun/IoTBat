@@ -22,6 +22,7 @@ body {
         font-size: 50px;
         font-family: cursive;
         margin-bottom: -35px;
+        margin-top: -10px;
 }
 .image{
     margin-top: auto;
@@ -102,5 +103,95 @@ input[type="password"]{
     background-color: #3e8e41;
 }
 
+.banner {
+    /*background-color: #D9AFD0;*/
+    border-radius: 30px;
+    margin-top: 40px;
+ background: linear-gradient(180deg, rgba(237,35,99,1) 0, rgba(124,188,10,1) 100%);
+}
+
+.banner {
+    display: inline-block;
+    width: 100%;
+	text-decoration: none;
+}
+#navigationbuttons {
+    margin-top: -5px ;
+    margin-bottom: 0px ;
+    width: 95%;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.navigationbuttons {
+    min-width: 270px;
+}
+
+.flex-inline {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navigationpagebutton {
+    min-width: 270px;
+    margin-top: 0px;
+}
+.pageButton {
+    min-width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.white, .white:hover {
+    color: white;
+}
+.white-button {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #39424a;
+    transition: background-color 100ms;
+    width: 145px;
+    text-align: center;
+}
+.nav-link {
+    font-weight: normal;
+    font-size: 20px;
+    width: 230px;
+    background-color: transparent;
+    margin-top: 0px;
+}
+.utslogo
+{
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 50px;
+	width: 220px;
+	border-radius: 15px;
+}
 
 
+
+    h1 {
+      color: #555;
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 18px;
+      margin-top: 30px;
+    }
+
+    a:hover {
+      background-color: #0062cc;
+    }

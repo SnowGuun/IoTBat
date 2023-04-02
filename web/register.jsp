@@ -29,8 +29,8 @@
         <div class="container">
             <img src="home.jpg" alt="Ecommerce Image" class="image" >
             <div class="login-container">
-                <form action="#">
-                    <h1 class="form_title">Register</h1>
+                <form action="mainpage.jsp" method="post">
+                    <h1 class="form_title" >Register</h1>
                     <label for="firstname">First Name</label>
                     <input type="text" placeholder="Enter First Name" name="firstname" required>
                     <label for="lastname">Last Name</label>

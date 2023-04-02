@@ -22,7 +22,7 @@
                     <input type="text" placeholder="Enter Username" name="username" required>
                     <label for="password">Password</label>
                     <input type="password" placeholder="Enter Password" name="password" required>
-                    <button type="button" class="submit" >Login</button>                   
+                    <input class="submit" type="submit" value="Login"> 
                     <a href="register.jsp" style="text-decoration: none">Create Account</a>
                     <a href="forgot_password.jsp" style="text-decoration: none" class="form_anchor">Forgot Password</a>
                 </form>
