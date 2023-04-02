@@ -5,7 +5,7 @@ Name | Github Profile | Role
 -----|----------------|------
 Huynh Phuong Anh Nguyen | @SnowGuun | Leader
  Dev | @TronKnight | Developer
- |  |
+Martin | @MartinRad123 | Developer
 |  | 
  | | 
 # Requirement
