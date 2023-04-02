@@ -1,7 +1,7 @@
-<%-- 
-    Document   : Order
-    Created on : Apr 2, 2023, 7:59pm
-    Author     : Martin
+<%--
+Document : Order
+Created on : Apr 2, 2023, 7:59pm
+Author : Martin
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -17,9 +17,9 @@
 	<nav>
 		<ul>
 			<li><a href="mainpage.jsp">Home</a></li>
-			<li><a href="products.jsp">Products</a></li>
-			<li><a href="cart.jsp">Cart</a></li>
-			<li><a href="account.jsp">Account</a></li>
+			<li>Products</li>
+			<li>Cart</li>
+			<li>Account</li>
 		</ul>
 	</nav>
 	<h2>Order Details</h2>
@@ -49,4 +49,4 @@
 		<input type="submit" value="Place Order">
 	</form>
 </body>
-</html>
+</html> 
