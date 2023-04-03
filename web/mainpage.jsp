@@ -13,6 +13,7 @@
 </head>
 <body>
  <h1 class='title'>IoT Bay Store</h1>
+ <h1 class='title2'>Logged in as: </h1>
 <header>
     <div class="banner" id="Navigation">
         <div id="navigationbuttons">
