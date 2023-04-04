@@ -15,7 +15,7 @@
    <div class="container">
             <img src="home.jpg" alt="Ecommerce Image" class="image" >
             <div class="login-container">
-    <h1>You have been logged out</h1>
+    <h1>You have been logged out.</h1>
     <% session.invalidate(); %>
     <a href="index.jsp">Back to Login</a>
   </div>

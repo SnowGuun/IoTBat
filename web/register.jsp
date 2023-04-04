@@ -28,7 +28,6 @@
     <h1 class='title'>IoT Bay Store</h1>
     <div class="container">            
         <div class="register-container" style="width: 400px;">
-            <form action="index.jsp" method="post">
                 <img src="home.jpg" alt="Ecommerce Image" class="image" >
                 <div class="login-container">
                     <form action="registersuccessful.jsp" method="post">
