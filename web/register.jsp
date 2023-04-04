@@ -26,8 +26,7 @@
     </head>
     <body>
         <h1 class='title'>IoT Bay Store</h1>
-        <div class="container">
-            
+        <div class="container">            
             <div class="register-container" style="width: 1200px;">
                 <form action="index.jsp" method="post">
                     <h1 class="form_title" >Register</h1>
