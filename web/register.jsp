@@ -39,8 +39,24 @@
                         <input type="text" placeholder="Enter Last Name" name="lastname" required>
                     </div>
                     <div class="form-field-group">
-                        <label for="address">Address</label>
-		        <input type="text" placeholder="Enter Address" name="address" required>
+                        <label for="address">Street Number</label>
+		        <input type="text" placeholder="Enter Street Number" name="address" required>
+                    </div> 
+                    <div class="form-field-group">
+                        <label for="address">Street Name</label>
+		        <input type="text" placeholder="Enter Street Name" name="address" required>
+                    </div>
+                    <div class="form-field-group">
+                        <label for="address">Suburb</label>
+		        <input type="text" placeholder="Enter Suburd" name="address" required>
+                    </div>
+                    <div class="form-field-group">
+                        <label for="address">State</label>
+		        <input type="text" placeholder="Enter State" name="address" required>
+                    </div>
+                    <div class="form-field-group">
+                        <label for="address">Postcode</label>
+		        <input type="text" placeholder="Enter Postcode" name="address" required>
                     </div>                    
                     <div class="form-field-group">
                         <label for="phone">Phone Number</label>
