@@ -28,7 +28,7 @@
         <h1 class='title'>IoT Bay Store</h1>
         <div class="container">            
             <div class="register-container" style="width: 1200px;">
-                <form action="index.jsp" method="post">
+                <form action="registersuccessful.jsp" method="post">
                     <h1 class="form_title" >Register</h1>
                     <div class="form-field-group">
                         <label for="firstname">First Name</label>
