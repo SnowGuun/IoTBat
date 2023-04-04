@@ -40,16 +40,16 @@
                         <input type="text" placeholder="Enter Last Name" name="lastname" required>
                     </div>
                     <div class="form-field-group">
-                        <label for="email">Email</label>
-		        <input type="email" placeholder="Enter Email" name="email" required>
-                    </div>
-                    <div class="form-field-group">
                         <label for="address">Address</label>
 		        <input type="text" placeholder="Enter Address" name="address" required>
                     </div>                    
                     <div class="form-field-group">
                         <label for="phone">Phone Number</label>
 		        <input type="tel" placeholder="Enter Phone Number" name="phone" required>
+                    </div>
+                    <div class="form-field-group">
+                        <label for="email">Email</label>
+		        <input type="email" placeholder="Enter Email" name="email" required>
                     </div>                    
                     <div class="form-field-group">
                         <label for="text">Username</label>
