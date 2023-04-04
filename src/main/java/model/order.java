@@ -9,7 +9,7 @@ package model;
  *
  * @author Dev
  */
-public class Order {
+public class order {
     private String product;
     private int quantity;
     private String address;
