@@ -40,23 +40,23 @@
                     </div>
                     <div class="form-field-group">
                         <label for="address">Street Number</label>
-		        <input type="text" placeholder="Enter Street Number" name="address" required>
+		        <input type="text" placeholder="Enter Street Number" name="streetNumber" required>
                     </div> 
                     <div class="form-field-group">
                         <label for="address">Street Name</label>
-		        <input type="text" placeholder="Enter Street Name" name="address" required>
+		        <input type="text" placeholder="Enter Street Name" name="streetName" required>
                     </div>
                     <div class="form-field-group">
                         <label for="address">Suburb</label>
-		        <input type="text" placeholder="Enter Suburd" name="address" required>
+		        <input type="text" placeholder="Enter Suburd" name="suburb" required>
                     </div>
                     <div class="form-field-group">
                         <label for="address">State</label>
-		        <input type="text" placeholder="Enter State" name="address" required>
+		        <input type="text" placeholder="Enter State" name="state" required>
                     </div>
                     <div class="form-field-group">
                         <label for="address">Postcode</label>
-		        <input type="text" placeholder="Enter Postcode" name="address" required>
+		        <input type="text" placeholder="Enter Postcode" name="postcode" required>
                     </div>                    
                     <div class="form-field-group">
                         <label for="phone">Phone Number</label>
@@ -75,7 +75,7 @@
 		        <input type="password" placeholder="Enter Password" name="password" id="password" required>                    
                         <input type="checkbox" onclick="showPassword()"> Show Password
                     </div>
-		    <button type="submit" class="submit">Register</button>
+		    <input class="submit" type="submit" value="Register"> 
                     <a href="index.jsp" style="text-decoration: none">Back to Login</a>   
                 </form>
                             

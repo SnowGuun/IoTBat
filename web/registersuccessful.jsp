@@ -17,9 +17,9 @@
         String lastName = request.getParameter("lastname");
         String email = request.getParameter("email");
         String phoneNumber = request.getParameter("phone");            
-        String streetNumber = request.getParameter("");
-        String streetName = request.getParameter("");
-        String postCode = request.getParameter("");
+        String streetNumber = request.getParameter("streetNumber");
+        String streetName = request.getParameter("streetName");
+        String postCode = request.getParameter("postcode");
     %> 
     <div class="container">
             <img src="home.jpg" alt="Ecommerce Image" class="image" >

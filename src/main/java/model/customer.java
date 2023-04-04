@@ -9,7 +9,7 @@ package model;
  *
  * @author Dev
  */
-public class customer {
+public class Customer {
     private String fName;
     private String lName;
     private String password;
@@ -19,7 +19,7 @@ public class customer {
     private String streetName;
     private String postCode;
 
-    public customer(String fName, String lName, String password, String phNumber, String emailAddress, String streetNumber, String streetName, String postCode) {
+    public Customer(String fName, String lName, String password, String phNumber, String emailAddress, String streetNumber, String streetName, String postCode) {
         this.fName = fName;
         this.lName = lName;
         this.password = password;
