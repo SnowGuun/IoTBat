@@ -21,12 +21,12 @@
         String streetNumber = request.getParameter("streetNumber");
         String streetName = request.getParameter("streetName");
         String postCode = request.getParameter("postCode");
-        
+        String username = request.getParameter("username");
         Customer customer = new Customer(firstName,lastName,password, phoneNumber, email,streetNumber,streetName,postCode);
         session.setAttribute("customer", customer);
     %> 
  <h1 class='title'>IoT Bay Store</h1>
- <h1 class='title2'>Logged in as: <%=firstName%></h1>
+ <h1 class='title2'>Logged in as: <%=username%></h1>
 <header>
     <div class="banner" id="Navigation">
         <div id="navigationbuttons">
